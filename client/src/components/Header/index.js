@@ -12,11 +12,11 @@ const Header = () => {
     Auth.logout();
   };
   return (
-    <Container fluid className="header" alignContent="space-between">
+    <Container fluid className="header" alignContent="space-evenly">
       <Row fluid align="center">
         <Col fluid align='flex start'>
           <Spacer y={2}/>
-          <Text h1 size={90} css={{ textGradient: "45deg, $pink600 20%, $blue600 100%" }}>
+          <Text h1 css={{ textGradient: "45deg, $pink600 20%, $blue600 100%" }}>
             <Link to="/"><FontAwesomeIcon icon={faEye} />
               <FontAwesomeIcon icon={faBrain} /> 
               Re-Engage
@@ -41,7 +41,6 @@ const Header = () => {
           )}
         </Col>
       </Row>
-      <Spacer y={4}/>
     </Container>
   );
 };
