@@ -1,5 +1,5 @@
 const NLPCloudClient = require('nlpcloud');
-const developmentAPIkeys = ['b348ed9a13fc6d001f221db7c48072afc7c7925b', '984d3fbf00485553703503402418196474d72524'];
+const developmentAPIkeys = ['430889cb2571c4502824157d6b24d119fb58128b'];
 
 // generate cloud client 'buckets'
 const nlpCloudClients = new function () {
